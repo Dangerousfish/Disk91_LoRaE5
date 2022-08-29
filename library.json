@@ -22,25 +22,28 @@
 	"headers": "disk91_LoRaE5.h",
 	"examples": [
 		{
-			"name": "example1",
-			"base": "examples/example1",
-			"files": [
-				"file1",
-				"file2",
-				"file3"
-			]
+			"name": "Debugging",
+			"base": "examples/dsk_LoRaE5_Debuging",
+			"files": "dsk_LoRaE5_Debuging.ino"
 		},
 		{
-			"name": "ExampleFile1",
-			"base": "examples/ExampleFile",
-			"files": ["file1.cpp", "file.h"]
+			"name": "Simple Uplink",
+			"base": "examples/dsk_LoRaE5_SimpleUplink",
+			"files": "dsk_LoRaE5_SimpleUplink.ino"
+		},
+		{
+			"name": "Store Credentials",
+			"base": "examples/dsk_LoRaE5_StoreCredentials",
+			"files": "dsk_LoRaE5_StoreCredentials.ino"
+		},
+		{
+			"name": "Uplink / Downlink",
+			"base": "examples/dsk_LoRaE5_UplinkDownlink",
+			"files": "dsk_LoRaE5_UplinkDownlink.ino"
 		}
+
 	],
-	"dependencies": 
-		{
-		"ownername/arduino.h": "latest",
-		"ownername/softwareserial.h": "latest"
-		},
+	"dependencies": {},
 	"export": [
 		{
 			"include":{},
@@ -49,7 +52,7 @@
 			"exclude":{},
 		}
 	],
-	"scripts": "<TBC>",
+	"scripts": {},
 	"build": 
 		{
 			"flags": "",
@@ -63,5 +66,6 @@
 			"libCompatMode": "",
 			"builder": ""
 		},
-	}
+
+	},
 }
