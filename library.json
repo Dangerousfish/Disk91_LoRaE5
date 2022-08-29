@@ -11,12 +11,12 @@
 	},
 	"authors":
 	{
-		"author": "Paul Pinault",
+		"name": "Paul Pinault",
 		"email": "disk_91@hotmail.com",
 		"url": "https://www.disk91.com/contact-me/",
 		"maintainter": true
 	},
-	"license": "BSD",
+	"license": "BSD-3-Clause",
 	"frameworks": "arduino",
 	"platforms": "atmelsam",
 	"headers": "disk91_LoRaE5.h",
@@ -24,26 +24,34 @@
 		{
 			"name": "Debugging",
 			"base": "examples/dsk_LoRaE5_Debuging",
-			"files": "dsk_LoRaE5_Debuging.ino"
+			"files": [
+				"platformio.ini",
+				"include/examples/dsk_LoRaE5_Debuging.ino"
+			]
 		},
 		{
 			"name": "Simple Uplink",
 			"base": "examples/dsk_LoRaE5_SimpleUplink",
-			"files": "dsk_LoRaE5_SimpleUplink.ino"
+			"files": [
+			"platformio.ini",
+			"dsk_LoRaE5_SimpleUplink.ino"
+		]
 		},
 		{
 			"name": "Store Credentials",
 			"base": "examples/dsk_LoRaE5_StoreCredentials",
-			"files": "dsk_LoRaE5_StoreCredentials.ino"
+			"files": [
+				"platformio.ini",
+				"dsk_LoRaE5_StoreCredentials.ino"
+			]
 		},
 		{
 			"name": "Uplink / Downlink",
 			"base": "examples/dsk_LoRaE5_UplinkDownlink",
-			"files": "dsk_LoRaE5_UplinkDownlink.ino"
+			"files": [
+				"platformio.ini",
+				"dsk_LoRaE5_UplinkDownlink.ino"
+			]
 		}
-	],
-	"dependencies": {},
-	"export": {},
-	"scripts": {},
-	"build": {}
+	]
 }
