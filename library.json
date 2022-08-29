@@ -41,31 +41,9 @@
 			"base": "examples/dsk_LoRaE5_UplinkDownlink",
 			"files": "dsk_LoRaE5_UplinkDownlink.ino"
 		}
-
 	],
 	"dependencies": {},
-	"export": [
-		{
-			"include":{},
-		},
-		{
-			"exclude":{},
-		}
-	],
+	"export": {},
 	"scripts": {},
-	"build": 
-		{
-			"flags": "",
-			"unflags": "",
-			"includDir": "",
-			"srcDir": "",
-			"srcFilter": "",
-			"extraScript": "",
-			"libArchive": "",
-			"libLDFMode": "",
-			"libCompatMode": "",
-			"builder": ""
-		},
-
-	},
+	"build": {}
 }
